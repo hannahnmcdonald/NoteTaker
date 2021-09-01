@@ -76,3 +76,19 @@ body {
   padding: 20px;
   cursor: pointer;
 }
+
+.navbar {
+  background-color: royalblue;
+}
+
+.btn {
+  border-style: none;
+}
+
+.btn:hover {
+  background-color: royalblue;
+  cursor: pointer;
+  transition: transform 150ms;
+  transform: scale(1.05);
+}
+

@@ -1,11 +1,17 @@
-//  Requirements:
+//  Requirements
 const express = require('express');
 
-// Initialize App:
+// Initialize App + Create Port
 const app = express();
 const PORT = 3001;
 
-// Listen for connections:
+
+// Set Up Middleware
+app.use(express.static('public'));
+
+
+
+// Listen for connections
 app.listen(PORT, () =>
   console.info(`Example app listening at http://localhost:${PORT} 🚀`)
 );
