@@ -6,13 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hannahnmcdonald/NoteTaker.git"
-  },
   "author": "",
   "license": "ISC",
-  "homepage": "https:/github.com/hannahnmcdonald/NoteTaker",
   "dependencies": {
     "express": "^4.17.1"
   }
