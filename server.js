@@ -1,7 +1,7 @@
 //  Requirements
 const express = require('express');
 // const apiRoutes = require('./routes/apiRoutes');
-// const htmlRoutes = require('./routes/htmlRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
 // Initialize App + Create Port
 const app = express();
@@ -12,7 +12,7 @@ app.use(express.static('public'));
 // app.use('/api', apiRoutes);
 // app.use(express.json());
 // app.use(express.urlencoded({ extended: true }));
-// app.use('/', htmlRoutes);
+app.use('/', htmlRoutes);
 
 // Listen for connections
 app.listen(PORT, () =>
