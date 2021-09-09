@@ -12,7 +12,7 @@ Click [here](https://still-dawn-65354.herokuapp.com/) to see the deployed applic
 Click [here](https://hannahnmcdonald.github.io/NoteTaker/) to see the deployed application on Github Pages
 
 ## User Story
-
+ 
 ```
 AS A small business owner
 I WANT to be able to write and save notes
@@ -49,8 +49,6 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 
 ## Screenshot
-
-Example of generated HTML: 
 
 ![Screenshot](./img/Screenshot1.png)
 ![Screenshot](./img/Screenshot2.png)
