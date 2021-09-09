@@ -9,8 +9,6 @@ A simple note taker applciation using express js in the backend and is able to r
 
 Click [here](https://still-dawn-65354.herokuapp.com/) to see the deployed application on Heroku
 
-Click [here](https://hannahnmcdonald.github.io/NoteTaker/) to see the deployed application on Github Pages
-
 ## User Story
  
 ```
