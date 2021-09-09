@@ -43,9 +43,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ## Table of Contents
 1. [Screenshot](##Screenshot)
 2. [Technologies](##Technologies)
-3. [License](##License)
-4. [Contributing](##Contributing)
-5. [Questions](##Questions)
+3. [Installation/Usage](##Installation/Usage)
+4. [License](##License)
+5. [Contributing](##Contributing)
+6. [Questions](##Questions)
 
 
 ## Screenshot
@@ -61,6 +62,17 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 * npm
 * Heroku
 
+## Installation/Usage
+
+If you run this application locally you will need to clone it from this repo then run the following commands/install dependencies
+
+```
+npm install
+npm install express
+npm start
+```
+
+The application will begin after npm start command and you will be presented with the home page via localhost:3001.
 
 ## License
 
